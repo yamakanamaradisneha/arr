@@ -1,0 +1,13 @@
+def main()
+   scores=[78,85,90,66,88]
+     sum=total(scores)
+     average=average/len(scores)
+     print("===main/master branch output===")
+     print(f"Scores:{scores}")
+     print(f"Sum:{total}")
+     print(f"Average:{average}")
+     print("\n===local branch output(min&max)===")
+     print(f"Minimum:{min(scores}")
+     print(f"Maximum:{max(scores}")
+ if___name___=="main__":
+     main()
